@@ -1,0 +1,24 @@
+{
+  "name": "framer-template",
+  "version": "1.0.0",
+  "description": "Framer JS starter template for prototyping",
+  "scripts": {
+    "start": "webpack serve --config ./webpack.config.js --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "Framer",
+    "FramerJS",
+    "prototype",
+    "prototyping"
+  ],
+  "author": "Zero",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0"
+  }
+}
