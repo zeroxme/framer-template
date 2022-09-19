@@ -2,6 +2,15 @@
   "name": "framer-template",
   "version": "1.0.0",
   "description": "Framer JS starter template for prototyping",
+  "author": {
+    "name": "Zero",
+    "email": "me@zerox.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeroxme/framer-template"
+  },
+  "license": "MIT",
   "scripts": {
     "start": "webpack serve --config ./webpack.config.js --mode development",
     "build": "webpack --mode production"
@@ -12,8 +21,6 @@
     "prototype",
     "prototyping"
   ],
-  "author": "Zero",
-  "license": "MIT",
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^8.2.5",
